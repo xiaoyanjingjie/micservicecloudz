@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="micservice-cloud-consumer-dept-80" />
+        <module name="micservicecloud-api" />
+        <module name="micservicecloud-consumer-dept-80" />
+        <module name="micservicecloud-eureka-7001" />
+        <module name="micservicecloud-eureka-7002" />
+        <module name="micservicecloud-eureka-7003" />
+        <module name="micservicecloud-provider-dept-8001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="micservice-cloud-consumer-dep-80" target="1.8" />
+      <module name="micservice-cloud-consumer-dept-80" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

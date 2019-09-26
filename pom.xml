@@ -17,6 +17,8 @@
     <module>micservicecloud-provider-dept-8002</module>
     <module>micservicecloud-provider-dept-8003</module>
     <module>micservicecloud-consumer-dept-feign</module>
+    <module>micservicecloud-provider-dept-hystrix-8001</module>
+    <module>micservicecloud-consumer-hystrix-dashboard</module>
   </modules>
   <packaging>pom</packaging>
   <properties>

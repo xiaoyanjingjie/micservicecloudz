@@ -13,22 +13,18 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author wan dianjie
  * @date 2019-09-26 16:06
  */
-@FeignClient(value = "MICSERVICECLOUD-DEPT")
-
+@FeignClient(value = "MICSERVICECLOUD-DEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)
 public interface DeptClientService
 
 {
 
   @RequestMapping(value = "/dept/get/{id}",method = RequestMethod.GET)
-
   public Dept get(@PathVariable("id") long id);
 
   @RequestMapping(value = "/dept/list",method = RequestMethod.GET)
-
   public List<Dept> list();
 
   @RequestMapping(value = "/dept/add",method = RequestMethod.POST)
-
   public boolean add(Dept dept);
 
 }

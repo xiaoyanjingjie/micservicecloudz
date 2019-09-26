@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class DeptController_Consumer {
 
- // private static final String REST_URL_PREFIX = "http://localhost:8001";
+  //private static final String REST_URL_PREFIX = "http://localhost:8001";
   //访问对外暴露的提供的服务名称
   private static final String REST_URL_PREFIX = "http://MICSERVICECLOUD-DEPT";
 
@@ -38,7 +38,6 @@ public class DeptController_Consumer {
   }
 
 
-  @SuppressWarnings("unchecked")
   @RequestMapping(value = "/consumer/dept/list")
   public List<Dept> list() {
     return restTemplate.getForObject(REST_URL_PREFIX + "/dept/list", List.class);

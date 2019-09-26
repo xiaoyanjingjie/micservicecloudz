@@ -35,8 +35,8 @@ eureka:
 
 
 info:
-  app.name: atguigu-microservicecloud
-  company.name: www.atguigu.com
+  app.name: micservicecloud-dept8001
+  company.name: www.wandianjie.com
   build.artifactId: micservicecloud-provider-dept-8001
   build.version: 0.0.1-SNAPSHOT
 

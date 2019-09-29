@@ -19,6 +19,8 @@
     <module>micservicecloud-consumer-dept-feign</module>
     <module>micservicecloud-provider-dept-hystrix-8001</module>
     <module>micservicecloud-consumer-hystrix-dashboard</module>
+    <module>micservicecloud-zuul-gateway-9527</module>
+    <module>micservicecloud-config-3344</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
